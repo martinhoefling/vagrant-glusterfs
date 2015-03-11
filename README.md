@@ -18,4 +18,5 @@ This repo contains a vagrant setup of three glusterfs nodes. Each node has:
 
 * Starting all instances: ```vagrant up```
 * SSH into gluster1: ```vagrant ssh gluster1```
+* The setup can be done as root: ```sudo su```
 * Set up glusterfs volumes manually or create sample volumes via script: ```/vagrant/scripts/create_sample_volumes.sh```
